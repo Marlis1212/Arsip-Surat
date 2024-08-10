@@ -1,0 +1,312 @@
+* {
+  font-family: 'Calibri Light';
+}
+
+.sidebar {
+    height: 100%;
+    width: 230px;
+    position: fixed;
+    top: 2;
+    left: 0;
+    background-color: #003C43;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    margin-left: 12px;
+    margin-top: 12px;
+}
+
+.logo img {
+    width: 40px;
+    height: 40px;
+}
+
+.nama {
+    color: white;
+    margin-left: 5px;
+    text-align: center;
+
+}
+
+.headerr {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.profil {
+    margin-left: 16px;
+}
+
+.profil img {
+    width: 60px;
+    height: 60px;
+}
+
+.namaa {
+    color: white;
+    margin-left: 25px;
+}
+
+.namaa p {
+    font-size: 13px;
+    margin: 0;
+    margin-bottom: 3px; /* menghilangkan margin yang mungkin ditambahkan secara default oleh browser */
+}
+
+.namaa span {
+    display: inline-block; /* memastikan bahwa elemen span hanya mengambil ruang yang diperlukan */
+}
+
+.namaa h4 {
+    margin: 0; /* menghilangkan margin yang mungkin ditambahkan secara default oleh browser */
+}
+
+.sidebar a {
+    padding: 10px 9px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #818181;
+    display: block;
+}
+
+.sidebar a:hover {
+    color: #f1f1f1;
+}
+
+
+/* Dropdown Content (Hidden by Default) */
+/* Konten Dropdown (Disembunyikan secara Default) */
+.dropdown-content {
+  display: none;
+}
+
+.dropdown-content a {
+  padding-top: 0;
+}
+
+/* Tautan di dalam dropdown */
+.dropdown-content a {
+  color: #818181;
+}
+
+/* Tampilkan menu dropdown saat dihover */
+.dropdown:hover .dropdown-content {
+  display: block;
+  padding-left: 20px;
+}
+.dropdown > a::after {
+  content: ' \25BC'; /* Karakter Unicode untuk panah ke bawah */
+  font-size: 9px;
+  margin-left: 80px;
+}
+
+
+.dropdown-content1 {
+  display: none;
+}
+
+.dropdown-content1 a {
+  padding-top: 0;
+}
+
+/* Tautan di dalam dropdown */
+.dropdown-content1 a {
+  color: #818181;
+}
+
+/* Tampilkan menu dropdown saat dihover */
+.dropdown1:hover .dropdown-content1 {
+  display: block;
+  padding-left: 20px;
+}
+
+.dropdown1 > a::after {
+  content: ' \25BC'; /* Karakter Unicode untuk panah ke bawah */
+  font-size: 9px;
+  margin-left: 59px;
+}
+
+
+.navbar {
+  background-color: #CCC8AA;
+  width: 83%;
+  height: 40px;
+  margin-left: 222px;
+}
+
+
+.isi {
+    color: #003C43;
+    margin-left: 236.5px;
+    height: 100%;
+    width: 81.5%;
+    position: fixed; 
+    top: 2;
+    left: 0;
+    background-color: #EEF7FF;
+}
+
+.isi .sm {
+    font-size: 22px;
+    margin-left: 10px;
+    margin-top: -14px;
+}
+
+.isi .kotak {
+    background-color: #FFFFFF; /* Warna latar belakang kotak */
+    border: 1.6px solid #CCCCCC; /* Garis pinggiran kotak */
+    margin-left: 10px;
+    border-radius: 2px; /* Membuat sudut kotak menjadi melengkung */
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.1); /* Menambahkan bayangan untuk efek ketinggian */
+    height: 81%;
+    width: 97.5%;
+    margin-top: -14px;
+}
+
+.atas p {
+  margin-left: 13px;
+  margin-top: 15px;
+}
+
+.atas {
+    display: flex;
+}
+
+.btn-kembali-surat {
+    background-color: #176B87;
+    border: none;
+    height: 27px;
+    padding-right: 9px;
+    color: white;
+    margin-top: 12px;
+    margin-left: 7px;
+}
+
+.isi .kotak hr {
+  width: 97%;
+  margin-top: -0px;
+}
+
+
+
+.kotak1 {
+    margin-top: 20px;
+    margin-left: 201px;
+    margin-bottom: 9px;
+}
+
+.kotak1 input {
+    height: 20px;
+    width: 355px;
+}
+
+.kotak2 {
+    margin-left: 173px;
+    margin-bottom: 9px;
+}
+
+.kotak2 input {
+    height: 20px;
+    width: 355px;
+}
+
+.kotak3 {
+    margin-left: 231px;
+    margin-bottom: 9px;
+}
+
+.kotak3 input {
+    height: 22px;
+    width: 357px;
+}
+
+
+.kotak4 {
+    margin-left: 196px;
+    margin-bottom: 9px;
+}
+
+.kotak4 input {
+    height: 20px;
+    width: 356px;
+}
+
+.kotak5 {
+    display: flex;
+    margin-left: 234px;
+    margin-bottom: 9px;
+}
+
+.kotak5 textarea {
+    height: 80px;
+    width: 358px;
+    margin-left: 4px;
+}
+
+.kotak6 {
+    margin-left: 173px;
+    margin-bottom: 9px;
+}
+
+.kotak6 input {
+    height: 20px;
+    width: 356px;
+}
+
+
+.kotak7 {
+    margin-left: 256px;
+}
+
+.kotak7 input {
+    color: black;
+    width: 357px;
+    height: 20px;
+    padding-top: 5px;
+    padding-bottom: 6px;
+    padding-left: 5px;
+    border: 0.5px solid grey;
+    margin-bottom: 20px;
+}
+
+
+.btn-container {
+    margin-top: 20px;
+    margin-left: 420px;
+    display: flex;
+}
+
+.btn-reset-data {
+    margin-right: 3px;
+    height: 25px;
+}
+
+.btn-reset-data:hover {
+    background-color: #E1F0DA;
+}
+
+.btn-simpan-data {
+    border: 0px;
+    height: 25px;
+    margin-left: 3px;
+    background-color: #57CC99;
+}
+
+.btn-simpan-data:hover {
+    background-color: #80ED99;
+}
+
+.footer {
+  font-size: 10px;
+  color: #003C43;
+  float: right;
+  margin-top: -6px;
+  margin-right: 6px;
+}

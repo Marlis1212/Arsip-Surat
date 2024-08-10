@@ -1,0 +1,65 @@
+        .profile-btn {
+          background: none;
+          border: none;
+          margin-left: 95%;
+          margin-top: 5px;
+          margin-bottom: 6px;
+        }
+
+        .profile-btn img {
+          width: 30px;
+          height: 30px;
+
+        }
+
+        .profile-btn:hover img {
+          opacity: 0.8; /* Example hover effect: reduce opacity */
+          transform: scale(1.1); /* Example hover effect: slightly enlarge the image */
+          transition: all 0.3s ease; /* Smooth transition for the hover effect */
+        }
+
+
+        .logout {
+            display: none; /* Menyembunyikan elemen secara default */
+            position: fixed; /* Memposisikan elemen secara tetap relatif terhadap jendela tampilan */
+            z-index: 1; /* Menempatkan elemen di atas elemen lain dengan z-index yang lebih rendah */
+            left: 0; /* Mengatur posisi elemen ke sisi kiri jendela */
+            top: 0; /* Mengatur posisi elemen ke sisi atas jendela */
+            width: 100%; /* Lebar elemen penuh 100% dari jendela tampilan */
+            height: 100%; /* Tinggi elemen penuh 100% dari jendela tampilan */
+            overflow: auto; /* Menambahkan scrollbar jika konten melampaui tinggi elemen */
+            background-color: rgb(0,0,0); /* Mengatur warna latar belakang menjadi hitam */
+            background-color: rgba(0,0,0,0.4); /* Menambahkan transparansi pada warna latar belakang */
+        }
+
+        .logout-content {
+            background-color: #fefefe; /* Mengatur warna latar belakang menjadi putih */
+            margin: 1% auto; /* Mengatur margin atas dan bawah sebesar 15%, margin kiri dan kanan otomatis (center) */
+            padding: 20px; /* Menambahkan padding di sekitar konten */
+            border: 1px solid #888; /* Menambahkan border dengan warna abu-abu */
+            width: 80%; /* Mengatur lebar elemen menjadi 80% */
+            max-width: 300px; /* Mengatur lebar maksimum elemen menjadi 300px */
+            text-align: center; /* Menyelaraskan teks ke tengah */
+            /* Atur properti untuk konten logout */
+            position: absolute; /* Gunakan position absolute agar bisa diposisikan sesuai keinginan */
+            top: calc(5% + 5px); /* Posisikan 5px di bawah .profile-btn */
+            right: calc(1%); /* Posisikan 87% dari kanan */
+        }
+
+        .logout-content button {
+            margin: 10px 0; /* Menambahkan margin atas dan bawah sebesar 10px */
+        }
+
+        .close {
+            color: #aaa; /* Mengatur warna teks menjadi abu-abu muda */
+            float: right; /* Mengapungkan elemen ke kanan */
+            font-size: 28px; /* Mengatur ukuran font menjadi 28px */
+            font-weight: bold; /* Mengatur ketebalan font menjadi bold */
+        }
+
+        .close:hover,
+        .close:focus {
+            color: black; /* Mengubah warna teks menjadi hitam saat di-hover atau fokus */
+            text-decoration: none; /* Menghapus garis bawah pada teks */
+            cursor: pointer; /* Mengubah kursor menjadi pointer saat di-hover atau fokus */
+        }
